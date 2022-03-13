@@ -29,7 +29,11 @@ x is a number -> shows the last x commits made
 ### 8- git log author="name"
 searchs for the commits made by anyone have that name
 
+### 9- git status 
+gets a report about files in the staging area and that is in the working directory and not in the staging to be added or commited
 
+### 10- git diff
+it shows the differences between the files on the working tree and the ones on the repo
 
 
 ## Git notes
