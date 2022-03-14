@@ -68,9 +68,19 @@ to restore the file from the staging area (undo the add command).
 ### 19- git commit --amend -m "the commit message here"
 to add some changes to the last commit that is already on the reop
 
+### 20- git checkout CommidID -- fileName
+to retrieve an old version of that file that was after that commit (with the id) happened.
 
+### 21- git revert CommitId
+revert the changes that happened from that commit and make them in a new commit with a new message.
+
+### 22- git clean -n / -f
+the command is to remove the untracked files by git (-n to show what would happen before you remove)
+(-f actually removes them)
 ## Git notes
 
 ### 1- git uses a three tree archticture by having a repo and the working tree (those two are like any other version control systems) but git also have a third tree which is the staging index that is between both other trees.
 
 ### 2- when we do add command files are copied from the working tree to the staging tree and when we commit they are copied to the reop.
+
+### 3- using .gitignore file to put some filenames or rules for the files that wouldn't be tracked by git.
