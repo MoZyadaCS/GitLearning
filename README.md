@@ -48,7 +48,12 @@ or delete the file if not deleted and adds that change to the staging area.
 
     b- git rv oldName newName 
     we use this command to move the file from one path to another path which changes the name.
-### 
+### 14- git commit -a / git commit --all 
+to add the changes from the working directory to the repo directly without having to put them in the staging area.
+
+### 15- git show commitID
+to show the details about specific commit using its id or part of it(the first 9 or 10 digits).
+
 
 ## Git notes
 
