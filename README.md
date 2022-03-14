@@ -19,7 +19,7 @@ to add all what's in the current directory to be commited.
 to commit the file to the global repo.
 
 ### 5- git commit fileName -m "commit message to be sent"
-
+if we didn't put -m Git will ask for the message and then we can put multiple line message
 ### 6- git log
 shows the list of commits made.
 
@@ -48,7 +48,25 @@ or delete the file if not deleted and adds that change to the staging area.
 
     b- git rv oldName newName 
     we use this command to move the file from one path to another path which changes the name.
-### 
+### 14- git commit -a / git commit --all 
+to add the changes from the working directory to the repo directly without having to put them in the staging area.
+
+### 15- git show commitID
+to show the details about specific commit using its id or part of it(the first 9 or 10 digits).
+
+### 16- git diff olderCommitID..newerCommitID 
+to show the difference or to compare between two different commits.
+
+### 17- git checkout -- fileName 
+to replace the file on the working directory with the one on the repo(to undo changes made on the working area by mistake).
+
+
+### 18 - git reset HEAD fileName
+to restore the file from the staging area (undo the add command).
+
+### 19- git commit --amend -m "the commit message here"
+to add some changes to the last commit that is already on the reop
+
 
 ## Git notes
 
