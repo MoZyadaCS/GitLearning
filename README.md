@@ -54,6 +54,7 @@ to add the changes from the working directory to the repo directly without havin
 ### 15- git show commitID
 to show the details about specific commit using its id or part of it(the first 9 or 10 digits).
 
+<<<<<<< HEAD
 ### 16- git diff olderCommitID..newerCommitID 
 to show the difference or to compare between two different commits.
 
@@ -67,6 +68,8 @@ to restore the file from the staging area (undo the add command).
 ### 19- git commit --amend -m "the commit message here"
 to add some changes to the last commit that is already on the reop
 
+=======
+>>>>>>> 4f5e22c3ec7203a79ee7232bb069510025773c5f
 
 ## Git notes
 
