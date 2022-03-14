@@ -46,7 +46,7 @@ or delete the file if not deleted and adds that change to the staging area.
 ### 13- re-nameing a file
     a- we change the file name in the directory and then do a delete with rm to the old name then add the new name and git will recognize they are the same file (if there is 50% similarity).
 
-    b- ### git rv oldName newName 
+    b- git rv oldName newName 
     we use this command to move the file from one path to another path which changes the name.
 ### 
 
