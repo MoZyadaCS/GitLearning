@@ -69,7 +69,6 @@ to restore the file from the staging area (undo the add command).
 to add some changes to the last commit that is already on the reop
 
 
-
 ## Git notes
 
 ### 1- git uses a three tree archticture by having a repo and the working tree (those two are like any other version control systems) but git also have a third tree which is the staging index that is between both other trees.
